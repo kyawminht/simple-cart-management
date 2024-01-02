@@ -15,7 +15,7 @@ const Header = () => {
       });
     },[]);
   return (
-    <div className={` ${isActive ? ' bg-white py-4 shadow-md' :  ' bg-none py-6'} w-full fixed z-10 transition-all px-10 `}>
+    <div className={` ${isActive ? ' bg-white py-4 shadow-md' :  ' bg-none py-6'} w-full fixed z-10 transition-all px-10 md:px-16 lg:px-20`}>
      <div className="container mx-auto flex items-center justify-between">
      <Link to={'/'} className=' cursor-pointer'>
       <FaShopify className=' text-5xl' />
